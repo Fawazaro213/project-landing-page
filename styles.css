@@ -178,3 +178,9 @@ footer span {
     justify-content: flex-end;
     color: #555;    
 }
+
+@media (min-width: 760px) {
+    #card {
+        flex-direction: column;
+    }
+}
